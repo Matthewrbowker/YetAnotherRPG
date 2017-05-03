@@ -8,8 +8,8 @@ namespace mbowkerRPG
 {
     class Hero : Character
     {
-        private String Name;
+        protected String _name;
 
-        public string Name1 { get => Name; set => Name = value; }
+        public string Name { get => _name; set => _name = value; }
     }
 }

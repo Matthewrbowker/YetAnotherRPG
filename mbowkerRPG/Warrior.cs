@@ -16,6 +16,7 @@ namespace mbowkerRPG
             _strength = 100;
             _hitpoints = 100;
             _skillpoints = 3;
+            _name = "Warrior";
         }
     }
 }

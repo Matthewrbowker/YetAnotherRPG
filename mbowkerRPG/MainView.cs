@@ -46,5 +46,10 @@ namespace mbowkerRPG
                 MessageBox.Show("Help file not found, please re-install the application.", "Error - Yet Another RPG", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void MainView_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

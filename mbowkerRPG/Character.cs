@@ -32,7 +32,12 @@ namespace mbowkerRPG
 
         public void Defend(Villain v)
         {
-            v.Attack(_attack);
+            v.Attack(_attack - _defense);
+        }
+
+        public bool Is_Dead()
+        {
+            return _hitpoints <= 0;
         }
     }
 }
